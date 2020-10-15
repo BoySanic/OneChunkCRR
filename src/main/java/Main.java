@@ -18,6 +18,7 @@ import java.util.stream.IntStream;
 public class Main {
     static File file;
     static FileOutputStream fos = null;
+    static int interval = 10000;
     public static ArrayList<Long> eyeseeds = new ArrayList<Long>();
     public static void main(String[] args) {
         int start = 0;
@@ -35,6 +36,10 @@ public class Main {
                 }
                 else if(args[i].equals("--end")){
                     end = Integer.parseInt(args[i+1]);
+                    continue;
+                }
+                else if(args[i].equals("--interval")){
+                    interval = Integer.parseInt(args[i+1]);
                     continue;
                 }
                 else{
@@ -100,7 +105,7 @@ public class Main {
 
     private static synchronized void increment(){
         counter++;
-        if(counter % 100000 == 0){
+        if(counter % interval == 0){
             tempTime = System.nanoTime();
             double percentage = ((double)counter/(double)total);
             double secondsElapsed = ((double)tempTime - (double)startTime)/1000000000.0;
