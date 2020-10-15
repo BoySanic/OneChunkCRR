@@ -105,7 +105,7 @@ public class Main {
             double percentage = ((double)counter/(double)total);
             double secondsElapsed = ((double)tempTime - (double)startTime)/1000000000.0;
             double secondsRemaining = secondsElapsed/percentage - secondsElapsed;
-            System.out.printf("Progress: %08d out of %08d\t%s%%\t%s seconds elapsed\t%s seconds remaining\n", counter, total, percentformatter.format(percentage*100), secondsformatter.format(secondsElapsed), secondsformatter.format(secondsRemaining));
+            System.out.printf("Progress: %s%% done (%08d out of %08d)\t%s seconds elapsed\t%s seconds remaining\n",percentformatter.format(percentage*100),  counter, total, secondsformatter.format(secondsElapsed), secondsformatter.format(secondsRemaining));
         }
     }
     public static void reversePopulationSeedPre13(int start, int end, int threads) throws IOException {
