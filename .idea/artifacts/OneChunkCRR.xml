@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OneChunkCRR">
+    <output-path>$PROJECT_DIR$/out/artifacts/OneChunkCRR</output-path>
+    <root id="archive" name="OneChunkCRR.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KaptainWutax/BiomeUtils/e7a9489cd6dec10ff06b7cf70a297f40c223d94a/65537ebc8849364484aeb696c8bbca376885783d/BiomeUtils-e7a9489cd6dec10ff06b7cf70a297f40c223d94a.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KaptainWutax/ChunkRandomReversal/209eefb8ed2bd097e3c55d3934ba508b664443da/363a5b2539263ac79411bb2878d4c36f7b6bb68b/ChunkRandomReversal-209eefb8ed2bd097e3c55d3934ba508b664443da.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KaptainWutax/FeatureUtils/20252b3e97443175e1de33d44cc602b151fb70f4/d5637f547e8921de65d83dd0ecb55e67b59c439/FeatureUtils-20252b3e97443175e1de33d44cc602b151fb70f4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KaptainWutax/LattiCG/38f0b3d33e15ad2e6ce9ddb1f588e2b9a8c96174/e0a1f3616b7ba17ae91b250ac10cb05f8dde1fd1/LattiCG-38f0b3d33e15ad2e6ce9ddb1f588e2b9a8c96174.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KaptainWutax/MathUtils/6c2d50eacad0241ff76119e6e703b70bac4b4bce/78019bdbd73791fb542dc4d96036278eec2dfe04/MathUtils-6c2d50eacad0241ff76119e6e703b70bac4b4bce.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KaptainWutax/SEED/master-SNAPSHOT/c8ac803b5f5a1a932f93de0fcbfd21155617f495/SEED-master-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KaptainWutax/SeedUtils/4d1715417dd6957e42ee1b1a5c43cf22e10c6df3/54c74e3f358680d1c83909296845c607865f173e/SeedUtils-4d1715417dd6957e42ee1b1a5c43cf22e10c6df3.jar" path-in-jar="/" />
+      <element id="module-output" name="OneChunkCRR.main" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/all_11_eye_matt.txt" />
+    </root>
+  </artifact>
+</component>
